@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include yamaanapps *.css
+recursive-include yamaanapps *.csv
+recursive-include yamaanapps *.html
+recursive-include yamaanapps *.ico
+recursive-include yamaanapps *.js
+recursive-include yamaanapps *.json
+recursive-include yamaanapps *.md
+recursive-include yamaanapps *.png
+recursive-include yamaanapps *.py
+recursive-include yamaanapps *.svg
+recursive-include yamaanapps *.txt
+recursive-exclude yamaanapps *.pyc
